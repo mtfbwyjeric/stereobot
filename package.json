@@ -1,0 +1,11 @@
+{
+  "name": "StereoBot",
+  "version": "1.0.0",
+  "description": "A stereo bot",
+  "main": "bot.js",
+  "author": "Stereodrive#1250",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "winston": "^3.2.1"
+  }
+}
