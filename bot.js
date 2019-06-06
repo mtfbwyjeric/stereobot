@@ -34,10 +34,11 @@ bot.on('message', function (user, userID, channelID, message, evt) {
         });
         break;
       case 'stereo':
-        bot.sendMessage({
-          to: channelID,
-          message: 'Hi Stereo!'
-        });
+        bot.setPresence({
+          game:{
+            name:"stereo"
+          }
+        })
         break;
       // Just add any case commands if you want to..
     }
