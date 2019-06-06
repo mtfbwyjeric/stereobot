@@ -1,0 +1,2 @@
+# stereobot
+A stereo bot
